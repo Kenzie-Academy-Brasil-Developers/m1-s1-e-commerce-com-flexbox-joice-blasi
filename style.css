@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.cabecalho {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  height: 10vh;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu_todos_itens {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.logo_lista {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cabecalho_logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cabecalho_menu {
+  justify-content: flex-end;
+}
+
+.cabecalho_menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.cabecalho_menu ul li a {
+  text-decoration: none;
+  color: #585e65;
+  margin: auto 10px;
+}
+
+.botao {
+  text-decoration: none;
+  height: 32px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  font-size: smaller;
+  align-items: center;
+  border-radius: 4px;
+}
+
+main {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.produtos {
+  margin-top: 1.5rem;
+  width: 1200px;
+}
+
+.lista_produtos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lista_produtos li {
+  width: 24%;
+  height: 330px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card_interno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.imagem {
+margin-top: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.imagem img {
+  max-height: 130px;
+}
+
+.botao_carrinho {
+    margin-bottom: 20px;
+}
+
+.botao_carrinho a {
+  text-align: center;
+  text-decoration: none;
+  font-size: smaller;
+  background-color: #4c6ef5;
+  color: white;
+  padding:8px 28px;
+  border-radius: 4px;
+}
+
+.area_texto {
+    font-size: 13px;
+}
+
+.area_texto h2 {
+    margin-bottom: 2rem;
+}
